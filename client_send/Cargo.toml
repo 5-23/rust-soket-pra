@@ -1,6 +1,5 @@
-workspace = { members = [ "server", "client_read", "client_send"] }
 [package]
-name = "a"
+name = "client_send"
 version = "0.1.0"
 edition = "2021"
 

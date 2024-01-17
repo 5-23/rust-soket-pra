@@ -10,7 +10,7 @@ fn handle(mut stream: TcpStream)
     while match stream.read(&mut input) {
         Ok(_) => {
             println!("{}: {}", stream.peer_addr().unwrap(), from_utf8(&input).unwrap());
-            stream.write(&input).unwrap();
+            stream.write_all(&input).unwrap();
             stream.flush().unwrap();
             true
         }

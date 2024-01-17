@@ -7,7 +7,11 @@ name = "a"
 version = "0.1.0"
 
 [[package]]
-name = "client"
+name = "client2"
+version = "0.1.0"
+
+[[package]]
+name = "client_send"
 version = "0.1.0"
 
 [[package]]
